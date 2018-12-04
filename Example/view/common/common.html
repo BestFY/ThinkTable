@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>{$title|default=''}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="renderer" content="webkit">
+
+<script type="text/javascript">
+    var require = {
+        config:  {$config|json_encode}
+    };
+</script>
+
+<script src="__PUBLIC__/Js/require.js" data-main="__PUBLIC__/Js/lib/main.js"></script>
+<body>
+    <block name="content">
+
+    </block>
+</body>
+</html>
